@@ -24,6 +24,9 @@ These are an alternative to building a portfolio/landing page. Each one **replac
 ### Tools (`tools/`)
 - **`personality-test-ocean.md`** — a free Big Five (OCEAN) personality test that generates a report and lets people email it to themselves. *(ambitious — a full spec in one prompt)*
 
+### Portfolio (`portfolio/`)
+- **`portfolio.md`** — a clean one-page personal site (hero, about, experience, projects, skills, testimonials, contact), driven by a single content file. *(medium)*
+
 ---
 
 *New to the loop? See [`../docs/03-prompts.md`](../docs/03-prompts.md) for smaller, everyday prompts.*

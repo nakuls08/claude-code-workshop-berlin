@@ -5,11 +5,11 @@
 // ────────────────────────────────────────────────────────────────
 
 export const hero = {
-  name: "Anna Schneider",
-  role: "Product Designer",
+  name: "Nakul",
+  role: "Engineer",
   location: "Berlin, Germany",
   headline:
-    "I help early-stage teams turn fuzzy ideas into shipping products. Currently designing checkout flows at a fintech startup.",
+    "I build systems that make hard things feel simple. I like the layer where clean design meets code that has to survive real users, real traffic, and real 3 a.m. incidents.",
   ctaPrimary: { label: "See my work", href: "#projects" },
   ctaSecondary: { label: "Get in touch", href: "#contact" },
 };
@@ -17,9 +17,9 @@ export const hero = {
 export const about = {
   heading: "About",
   paragraphs: [
-    "I'm a product designer with seven years of experience across fintech, e-commerce, and developer tools. I care about the unglamorous parts of design — error states, edge cases, and the slow trust-building between a product and its users.",
-    "Before design, I studied philosophy in Munich. It turns out a lot of design is just disciplined thinking about what people actually need versus what they say they want.",
-    "Outside work I climb (poorly), read (constantly), and run a small Sunday breakfast club in Neukölln.",
+    "I'm an engineer who's happiest a level or two below the surface — in the APIs, data models, and edge cases that decide whether a product feels solid or flaky. I care about the parts nobody notices when they work and everybody notices when they don't.",
+    "I've shipped across the stack: backend services that quietly hold everything up, and the interfaces people actually touch. My rule of thumb is that good engineering is mostly good decisions made early, plus the discipline to delete code that no longer earns its place.",
+    "Away from the keyboard I'm usually chasing a good espresso, taking things apart to see how they work, and trading strong opinions about tabs, spaces, and where the semicolons go.",
   ],
 };
 
@@ -27,25 +27,25 @@ export const experience = {
   heading: "Experience",
   roles: [
     {
-      title: "Senior Product Designer",
-      company: "Tide",
+      title: "Senior Software Engineer",
+      company: "Fintech Startup",
       period: "2023 — Present",
       summary:
-        "Leading checkout and onboarding redesign for the business banking app. Cut signup drop-off by 34% in the first quarter after launch.",
+        "Leading backend work on the payments platform. Redesigned a core service to cut p99 latency in half and made deploys boring — which, for infrastructure, is the highest compliment.",
     },
     {
-      title: "Product Designer",
-      company: "GitLab",
+      title: "Software Engineer",
+      company: "Scale-up",
       period: "2020 — 2023",
       summary:
-        "Owned the merge request review experience. Shipped inline code review, suggested changes UX, and the new diff renderer.",
+        "Built and owned APIs used across the product. Introduced contract testing and cleaner service boundaries that let the team ship faster without stepping on each other.",
     },
     {
-      title: "Designer",
-      company: "Freelance",
+      title: "Engineer",
+      company: "Freelance & early-stage",
       period: "2017 — 2020",
       summary:
-        "Worked with 14 early-stage startups across Berlin and Tel Aviv on brand, web, and product design.",
+        "Helped a handful of early-stage teams go from prototype to production — picking pragmatic tools, keeping things simple, and shipping before perfect.",
     },
   ],
 };
@@ -54,24 +54,24 @@ export const projects = {
   heading: "Selected work",
   items: [
     {
-      title: "Tide Checkout Redesign",
+      title: "Real-time Payments Engine",
       year: "2024",
       summary:
-        "Reframed the onboarding flow around clarity over speed. Three rounds of usability testing, six prototypes, one launch — 34% improvement in completion.",
+        "Rebuilt a transaction pipeline to handle bursts of traffic without breaking a sweat. Halved p99 latency and turned a fragile service into one the on-call rotation stopped worrying about.",
       link: { label: "Case study", href: "#" },
     },
     {
-      title: "GitLab Inline Code Review",
+      title: "Developer Platform & CLI",
       year: "2022",
       summary:
-        "Designed the inline review pattern now used by 30+ million developers. Started as a hack-week prototype, became a flagship feature.",
+        "Designed the internal tooling and APIs that other engineers built on every day. Good developer experience is a product too — this one saved the team hours a week.",
       link: { label: "Read the writeup", href: "#" },
     },
     {
-      title: "Berlin Coffee Map",
+      title: "Berlin Transit Side Project",
       year: "2023",
       summary:
-        "A side project mapping independent coffee roasters in Berlin. Built with React + Mapbox. Used by ~2k people a week.",
+        "A weekend project that turned into a small habit for a few thousand people. Built end to end, deployed on a shoestring, and a great excuse to try tools I'd never use at work.",
       link: { label: "View live", href: "#" },
     },
   ],
@@ -81,16 +81,16 @@ export const skills = {
   heading: "What I work with",
   groups: [
     {
-      label: "Design",
-      items: ["Product strategy", "Interaction design", "Prototyping", "Usability testing", "Design systems"],
+      label: "Languages",
+      items: ["TypeScript", "Java", "Go", "Python", "SQL"],
     },
     {
-      label: "Tools",
-      items: ["Figma", "Linear", "Notion", "Framer", "FigJam"],
+      label: "Backend & Infra",
+      items: ["Node.js", "Spring Boot", "PostgreSQL", "Docker", "REST & APIs"],
     },
     {
-      label: "Code",
-      items: ["HTML / CSS", "React (basics)", "Git"],
+      label: "Frontend & Tools",
+      items: ["React", "Next.js", "Git", "CI/CD"],
     },
   ],
 };
@@ -100,15 +100,15 @@ export const testimonials = {
   quotes: [
     {
       text:
-        "Anna is rare. She holds the long-term product vision and the pixel-level craft in the same head, and shifts between them without losing either.",
-      author: "Lukas Weber",
-      role: "Head of Product, Tide",
+        "Nakul is the engineer you want on the hard problems. He goes quiet, disappears into the details, and comes back with something that's both simpler and more correct than what everyone else was arguing about.",
+      author: "A former manager",
+      role: "Engineering Lead",
     },
     {
       text:
-        "Working with Anna recalibrated how our whole team thinks about review. She has an instinct for what's actually friction versus what just feels like friction.",
-      author: "Sara Patel",
-      role: "Engineering Manager, GitLab",
+        "He has a knack for making complicated systems feel obvious. Half the time the best code review comment is just 'oh, of course it should work like that.'",
+      author: "A teammate",
+      role: "Senior Engineer",
     },
   ],
 };
@@ -116,16 +116,16 @@ export const testimonials = {
 export const contact = {
   heading: "Get in touch",
   body:
-    "Open to product design roles, collaborations, and the occasional coffee. Berlin or remote.",
-  email: "anna@example.com",
+    "Open to interesting engineering problems, collaborations, and the occasional coffee. Berlin or remote.",
+  email: "nakul@example.com",
   socials: [
+    { label: "GitHub", href: "https://github.com/nakuls08" },
     { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
     { label: "Twitter / X", href: "https://twitter.com/yourname" },
-    { label: "Read.cv", href: "https://read.cv/yourname" },
   ],
 };
 
 export const meta = {
-  title: "Anna Schneider — Product Designer",
-  description: "Berlin-based product designer. Currently at Tide.",
+  title: "Nakul — Engineer",
+  description: "Berlin-based engineer building systems that make hard things feel simple.",
 };
